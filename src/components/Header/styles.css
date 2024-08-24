@@ -7,7 +7,7 @@ header {
     color: var(--de2-color-font-primary);
 }
 
-.de2-nav-header {
+.de2-header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,4 +25,14 @@ ul li {
 
 ul li:last-child {
     margin-right: 0;
+}
+
+.de2-navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+.de2-navbar-right img {
+    height: 29px;
+    width: 30px;
 }
