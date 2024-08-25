@@ -16,6 +16,12 @@
     font-family: "Inter";
 }
 
+header {
+    display: flex;
+    align-items: center;
+
+}
+
 a,
 a:hover {
     text-decoration: none;
@@ -33,10 +39,27 @@ body {
     margin: 0 auto;
 }
 
-.de-link-active {
+.de2-container h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.de2-header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.de2-link-active {
     font-weight: 700;
 }
 
-.de-link-inactive {
+.de2-link-not-active {
     font-weight: 400;
+}
+
+.de2-mt20 {
+    margin-top: 20px;
 }

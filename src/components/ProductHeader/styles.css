@@ -1,0 +1,23 @@
+.de2-product-nav {
+    height: 60px;
+    background-color: var(--de2-color-bg-tertiary);
+    color: var(--de2-color-font-primary);
+}
+
+#de2-product-menu {
+    margin-top: 20px;
+}
+
+ul {
+    padding: 0 20px;
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}

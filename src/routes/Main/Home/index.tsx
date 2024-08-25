@@ -1,7 +1,10 @@
 export default function Home() {
     return (
         <main>
-            <h1>Bem-vindos!</h1>
+            <div className="de2-container">
+                <h1>Bem-vindos!</h1>
+            </div>
+
         </main>
     );
 }
