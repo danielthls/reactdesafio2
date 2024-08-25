@@ -21,11 +21,18 @@ export default function Header() {
                         to='/products' >
                         Produtos
                     </NavLink></li>
-                    <li>Sobre Nós</li>
+                    <li><NavLink
+                        className={({ isActive }: any) => isActive ? "de2-link-active" : "de2-link-not-active"}
+                        to='/about' >
+                        Sobre nós
+                    </NavLink></li>
                 </ul>
 
                 <div className='de2-navbar-container'>
-                    <img src={homeIcon} alt="Home" />
+                    <NavLink to='/'>
+                        <img src={homeIcon} alt="Home" />
+                    </NavLink>
+
                 </div>
             </nav>
         </header>

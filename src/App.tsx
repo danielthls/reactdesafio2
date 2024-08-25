@@ -5,6 +5,10 @@ import Home from './routes/Main/Home'
 import Products from './routes/Main/Products'
 import ProductHome from './routes/Main/Products/ProductHome'
 import Computers from './routes/Main/Products/Computers'
+import Electronics from './routes/Main/Products/Electronics'
+import Books from './routes/Main/Products/Books'
+import About from './routes/Main/About'
+import NotFound from './routes/Main/NotFound'
 
 function App() {
 
@@ -20,8 +24,9 @@ function App() {
             <Route path="books" element={<Books />} />
           </Route>
           <Route path="about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
-        <Route path="*" element={<NotFound />} />
+
       </Routes>
     </BrowserRouter>
   )
