@@ -9,7 +9,7 @@ export default function ProductList({ list }: Props) {
         <div className='de2-container de2-mt20'>
             {
                 list.map((item) =>
-                    <p>{item}</p>
+                    <p className='de2-items'>{item}</p>
                 )
             }
         </div>

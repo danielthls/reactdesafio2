@@ -60,6 +60,14 @@ body {
     font-weight: 400;
 }
 
+.de2-pad0 {
+    padding: 0;
+}
+
+.de2-pad20 {
+    padding: 0 20px;
+}
+
 .de2-mt20 {
     margin-top: 20px;
 }

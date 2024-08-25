@@ -1,7 +1,7 @@
 .de2-product-nav {
     height: 60px;
     background-color: var(--de2-color-bg-tertiary);
-    color: var(--de2-color-font-primary);
+    color: var(--de2-color-font-secondary);
 }
 
 #de2-product-menu {
@@ -9,7 +9,6 @@
 }
 
 ul {
-    padding: 0 20px;
     display: flex;
     list-style-type: none;
 }

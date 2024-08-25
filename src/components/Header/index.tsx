@@ -7,7 +7,7 @@ export default function Header() {
         <header className='de2-main-header'>
             <nav className='de2-container de2-header-nav'>
 
-                <ul>
+                <ul className='de2-pad0'>
                     <li>
                         <NavLink
                             className={({ isActive }: any) => isActive ? "de2-link-active" : "de2-link-not-active"}
