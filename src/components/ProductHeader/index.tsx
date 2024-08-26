@@ -10,7 +10,7 @@ export default function ProductHeader() {
                         <NavLink
                             className={({ isActive }: any) => isActive ? "de2-link-active" : "de2-link-not-active"}
                             to='computers'
-                            end>
+                        >
                             Computadores
                         </NavLink>
                     </li>
